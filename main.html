@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Walter White chases you!</title>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-sky color = "lightblue" radius = "3000"></a-sky>
+
+        <a-assets>
+            <a-asset-item src="./london_financial_district/scene.gltf" id="London"></a-asset-item>
+        </a-assets>
+        <a-entity position = "0 -100 0" gltf-model = "#London" ></a-entity>
+        
+    </a-scene>
+
+</body>
+
+</html>
